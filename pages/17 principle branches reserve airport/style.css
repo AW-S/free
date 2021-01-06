@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body::before{
+  content:'';
+  position: fixed;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+   z-index: -1;
+  -ms-background-image: url(img/Nota-9684-infidelidad_apropo.jpg);
+  background-image: url(img/Nota-9684-infidelidad_apropo.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter:blur(7px);
+}
+.heading {
+  background-image: url(img/maxresdefault.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 55px;
+  background-color: #10ff18;
+}
+.heading-list li {
+  width: 100px;
+  height: 20px;
+  list-style: none;
+  margin-left: 10%;
+}
+.heading-list li:hover {
+  background-color: #e5ff00;
+  letter-spacing: 0.2em;
+}
+.main {
+  width: 100vw;
+  min-height: 80vh;
+}
+.main-content {
+  width: 100vw;
+  padding: 2% 5%;
+}
+.main .main-content:last-child {
+  margin-bottom: 15%;
+}
+.content-title {
+  color:blue;
+  text-align: center;
+  margin: 2% 0%;
+}
+.content-text {
+  color:#FFEB3B;
+  text-align: justify;
+  margin: 2% 0%;
+  padding: 0% 5%;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.content-list {
+  color:#00BCD4;
+  margin-left: 10%;
+  padding-right: 5%;
+  max-width: 95%;
+}
+cite {
+  margin-left: 10%;
+}
+.footing {
+  -ms-background-image: url(img/6b66fc5e95b93f9022fc3359cc080451.jpg);
+  background-image: url(img/6b66fc5e95b93f9022fc3359cc080451.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  -ms-display: flex;
+  display: flex;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 45px;
+  background-color: #ff1010;
+}
+button {
+  border-radius: 7%;
+  width: 60px;
+  border: none;
+}
+button:hover {
+  transform: scale(1.2);
+  border: 3px groove white;
+  background-color: #10ff68;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #11c026;
+}
